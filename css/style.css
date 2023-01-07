@@ -29,16 +29,25 @@
     top: 30px;
     left:20px;
 }
-
+#highScoreBoard{
+    font-size: 39px;
+    position: absolute;
+    top: 30px;
+    right:20px;
+}
 .head{
-    background-color: red;
+    background: linear-gradient(rgb(113, 196, 217), rgb(91, 240, 251)); 
+   border-radius: 35%;
+    border: 1px solid rgb(11, 2, 78);
 }
 
 .snake{
-    background-color: purple;
-    border: .35vmin solid black;
+    background: linear-gradient(rgb(6, 48, 59), rgb(91, 240, 251)); 
+    /* border: .35vmin solid black; */
     border-radius: 12px;
+    border: 1px solid rgb(19, 50, 248);;
 }
 .food{
     background-color: yellow;
+    border-radius: 100%;
 }
